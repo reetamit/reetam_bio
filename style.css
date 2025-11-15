@@ -369,3 +369,24 @@ h3 a {
   margin-bottom: 10px; /* spacing between items */
 }
 
+.skills-block {
+    display: flex;
+    flex-direction: column;
+    gap: 12px; /* spacing between rows */
+    margin: 20px;
+  }
+
+  .skills-row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px; /* spacing between columns */
+  }
+
+  .skills-label {
+    flex: 0 0 160px; /* fixed width for labels */
+    font-weight: bold;
+  }
+
+  .skills-items {
+    flex: 1; /* take remaining space */
+  }
