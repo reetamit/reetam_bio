@@ -18,7 +18,7 @@
         <a onclick="showPage('awards')">Achievements</a>
         <a onclick="showPage('projects')">Projects</a>
         <a onclick="showPage('membership')">Membership</a>
-        <a onclick="showPage('blogs')">Article & Blogs</a>
+        <a onclick="showPage('blogs')">Media</a>
         <a onclick="showPage('volunteering')">Volunteering</a>
     </nav>
 
@@ -393,7 +393,23 @@
 
     <div id="blogs" class="page bg-blogs">
         <div class="container projects-block">
-            <h2>Articles and Blogs</h2>
+
+            <h2>Media post</h2>
+            <div class="project-card">
+                <img src="images/ATONews.avif" alt="ai_alzheimer" class="blog-img">
+                <div class="project-info">
+                    <h3>Publlished media post <a href="https://weloveopensource.beehiiv.com/p/small-models-big-impact-3-projects-changing-ai" target="_blank">@We ❤️ Open Source</a> </h3>
+                    <p>
+                        WHY WE ❤️ IT: We LOVE the fact you can explore the GitHub repositories and contribute or adapt them for your next project. CNN Model and API Service links are included!
+                    </p>
+                    <ul class="project-links">
+                        <li><a href="https://weloveopensource.beehiiv.com/p/small-models-big-impact-3-projects-changing-ai">
+                                Click here to read the post</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <h2>Articles</h2>
 
             <div class="project-card">
                 <img src="images/ato_aial.png" alt="ai_alzheimer" class="blog-img">
@@ -495,5 +511,36 @@ An open                 source approach to transparent AI diagnosis that priorit
         }
     </script>
 </body>
+<!-- Fullscreen Image Modal -->
+<div id="imgModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImg">
+</div>
+
+<script>
+// Get modal elements
+const modal = document.getElementById("imgModal");
+const modalImg = document.getElementById("modalImg");
+const closeBtn = document.querySelector(".close");
+
+// Attach click event to all images inside .cert and .block
+document.querySelectorAll(".cert img, .block img").forEach(img => {
+    img.addEventListener("click", () => {
+        modal.style.display = "block";
+        modalImg.src = img.src;
+    });
+});
+
+// Close modal
+closeBtn.onclick = () => {
+    modal.style.display = "none";
+};
+
+// Close when clicking outside the image
+modal.onclick = (e) => {
+    if (e.target === modal) modal.style.display = "none";
+};
+
+</script>
 
 </html>
