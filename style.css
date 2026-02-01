@@ -2,12 +2,14 @@ body {
   margin: 0;
   font-family: 'Roboto Flex', sans-serif;
 }
+
 nav {
   background: #1a78ba;
   padding: 30px;
-  
+
   text-align: left;
 }
+
 nav a {
   color: white;
   margin: 0 15px;
@@ -20,7 +22,8 @@ nav a:hover {
 }
 
 nav .nav-name {
-  margin-right: auto;   /* pushes all links to the right */
+  margin-right: auto;
+  /* pushes all links to the right */
   font-weight: bold;
   font-size: 20px;
   color: white;
@@ -31,44 +34,70 @@ nav .nav-name {
   padding-top: 30px;
   padding-bottom: 40px;
 }
-#experience{
-    padding-top: 30px;
-    padding-bottom: 40px;
+
+#experience {
+  padding-top: 30px;
+  padding-bottom: 40px;
 }
-#projects{
-    padding-top: 30px;
-    padding-bottom: 40px;
+
+#projects {
+  padding-top: 30px;
+  padding-bottom: 40px;
 }
-#awards{
-    padding-top: 30px;
-    padding-bottom: 40px;
+
+#awards {
+  padding-top: 30px;
+  padding-bottom: 40px;
 }
-#membership{
-    padding-top: 30px;
-    padding-bottom: 40px;
+
+#membership {
+  padding-top: 30px;
+  padding-bottom: 40px;
 }
-#blogs{
-    padding-top: 30px;
-    padding-bottom: 40px;
+
+#blogs {
+  padding-top: 30px;
+  padding-bottom: 40px;
 }
-#volunteering{
-    padding-top: 30px;
-    padding-bottom: 40px;
+
+#volunteering {
+  padding-top: 30px;
+  padding-bottom: 40px;
 }
+
 .page {
   display: none;
   min-height: 100vh;
   color: white;
 }
+
 .active {
   display: block;
 }
-.bg-home { background: url('images/bg-home.jpg') no-repeat center center/cover; }
-.bg-projects { background: url('images/bg-home.jpg') no-repeat center center/cover; }
-.bg-awards { background: url('images/bg-home.jpg') no-repeat center center/cover; }
-.bg-membership { background: url('images/bg-home.jpg') no-repeat center center/cover; }
-.bg-blogs { background: url('images/bg-home.jpg') no-repeat center center/cover; }
-.bg-volunteering { background: url('images/bg-home.jpg') no-repeat center center/cover; }
+
+.bg-home {
+  background: url('images/bg-home.jpg') no-repeat center center/cover;
+}
+
+.bg-projects {
+  background: url('images/bg-home.jpg') no-repeat center center/cover;
+}
+
+.bg-awards {
+  background: url('images/bg-home.jpg') no-repeat center center/cover;
+}
+
+.bg-membership {
+  background: url('images/bg-home.jpg') no-repeat center center/cover;
+}
+
+.bg-blogs {
+  background: url('images/bg-home.jpg') no-repeat center center/cover;
+}
+
+.bg-volunteering {
+  background: url('images/bg-home.jpg') no-repeat center center/cover;
+}
 
 .container {
   background: #1a78ba;
@@ -77,7 +106,11 @@ nav .nav-name {
   max-width: 900px;
   border-radius: 12px;
 }
-.center { text-align: center; }
+
+.center {
+  text-align: center;
+}
+
 .profile-img {
   width: 150px;
   height: 150px;
@@ -85,15 +118,18 @@ nav .nav-name {
   object-fit: cover;
   border: 3px solid #fff;
 }
+
 .social-icons a {
   color: white;
   margin: 0 10px;
   font-size: 20px;
 }
+
 .section h3 {
   border-bottom: 1px solid #ccc;
   padding-bottom: 5px;
 }
+
 .block {
   background: #1a78ba;
   padding: 20px;
@@ -102,6 +138,7 @@ nav .nav-name {
   display: flex;
   align-items: center;
 }
+
 .block img {
   width: 50px;
   height: 50px;
@@ -109,6 +146,7 @@ nav .nav-name {
   margin-right: 20px;
   border-radius: 8px;
 }
+
 .cert img {
   width: 280px;
   height: 200px;
@@ -116,6 +154,7 @@ nav .nav-name {
   margin-right: 20px;
   border-radius: 8px;
 }
+
 .profile-flex {
   display: flex;
   align-items: center;
@@ -168,6 +207,7 @@ nav .nav-name {
   border-bottom: 1px solid #ccc;
   padding-bottom: 5px;
 }
+
 .container {
   max-width: 900px;
   margin: auto;
@@ -185,7 +225,7 @@ nav .nav-name {
 
 .info-block {
   flex: 1;
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.1);
   padding: 20px;
   border-radius: 8px;
   color: white;
@@ -197,8 +237,9 @@ nav .nav-name {
   border-bottom: 1px solid #ccc;
   padding-bottom: 5px;
 }
+
 .experience-block {
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.1);
   padding: 30px;
   border-radius: 10px;
   margin-top: 40px;
@@ -231,6 +272,7 @@ nav .nav-name {
   margin-bottom: 10px;
   line-height: 1.6;
 }
+
 .company-header {
   display: flex;
   align-items: center;
@@ -245,6 +287,7 @@ nav .nav-name {
   margin-right: 20px;
   border-radius: 8px;
 }
+
 .site-footer {
   text-align: center;
   padding: 20px;
@@ -253,11 +296,12 @@ nav .nav-name {
   font-size: 14px;
   border-top: 1px solid #444;
 }
+
 .projects-block {
   padding: 30px;
   border-radius: 12px;
   color: white;
-    max-width: 900px;
+  max-width: 900px;
   margin: auto;
   padding: 40px 20px;
   background: #1a78ba;
@@ -271,7 +315,7 @@ nav .nav-name {
   padding: 40px 20px;
   border-radius: 12px;
   flex-wrap: wrap;
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .project-img {
@@ -313,6 +357,7 @@ nav .nav-name {
   color: #ffd;
   text-decoration: underline;
 }
+
 .info-flex {
   display: flex;
   gap: 30px;
@@ -322,7 +367,7 @@ nav .nav-name {
 
 .info-block {
   flex: 1;
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.1);
   padding: 20px;
   border-radius: 8px;
   color: white;
@@ -346,81 +391,94 @@ nav .nav-name {
 
 .block .text {
   display: flex;
-  flex-direction: column; /* stack paragraphs */
-  justify-content: flex-end; /* push them to bottom if taller */
+  flex-direction: column;
+  /* stack paragraphs */
+  justify-content: flex-end;
+  /* push them to bottom if taller */
 }
 
 h2 a {
   color: bisque;
   text-decoration: underline;
 }
+
 h3 a {
   color: bisque;
   text-decoration: underline;
 }
+
 .small-text {
-  font-size: 0.85em; /* or use px like 12px */
-  color: #ccc;       /* optional: lighter color */
+  font-size: 0.85em;
+  /* or use px like 12px */
+  color: #ccc;
+  /* optional: lighter color */
 }
+
 .experience-list {
-  padding-left: 40px; /* adds indentation like a tab */
+  padding-left: 40px;
+  /* adds indentation like a tab */
 }
 
 .experience-list li {
-  margin-bottom: 10px; /* spacing between items */
+  margin-bottom: 10px;
+  /* spacing between items */
 }
 
 .skills-block {
-    display: flex;
-    flex-direction: column;
-    gap: 12px; /* spacing between rows */
-    margin: 20px;
-  }
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  /* spacing between rows */
+  margin: 20px;
+}
 
-  .skills-row {
-    display: flex;
-    flex-direction: row;
-    gap: 10px; /* spacing between columns */
-  }
+.skills-row {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  /* spacing between columns */
+}
 
-  .skills-label {
-    flex: 0 0 160px; /* fixed width for labels */
-    font-weight: bold;
-  }
+.skills-label {
+  flex: 0 0 160px;
+  /* fixed width for labels */
+  font-weight: bold;
+}
 
-  .skills-items {
-    flex: 1; /* take remaining space */
-  }
+.skills-items {
+  flex: 1;
+  /* take remaining space */
+}
 
-  /* Modal background */
+/* Modal background */
 .modal {
-    display: none;
-    position: fixed;
-    z-index: 9999;
-    padding-top: 60px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0,0,0,0.9);
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  padding-top: 60px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 /* Fullscreen image */
 .modal-content {
-    margin: auto;
-    display: block;
-    max-width: 90%;
-    max-height: 90%;
+  margin: auto;
+  display: block;
+  max-width: 90%;
+  max-height: 90%;
 }
 
 /* Close button */
 .close {
-    position: absolute;
-    top: 20px;
-    right: 35px;
-    color: #fff;
-    font-size: 40px;
-    font-weight: bold;
-    cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
 }

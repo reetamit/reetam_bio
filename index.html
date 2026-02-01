@@ -398,12 +398,16 @@
             <div class="project-card">
                 <img src="images/ATONews.avif" alt="ai_alzheimer" class="blog-img">
                 <div class="project-info">
-                    <h3>Publlished media post <a href="https://weloveopensource.beehiiv.com/p/small-models-big-impact-3-projects-changing-ai" target="_blank">@We ❤️ Open Source</a> </h3>
+                    <h3>Publlished media post <a
+                            href="https://weloveopensource.beehiiv.com/p/small-models-big-impact-3-projects-changing-ai"
+                            target="_blank">@We ❤️ Open Source</a> </h3>
                     <p>
-                        WHY WE ❤️ IT: We LOVE the fact you can explore the GitHub repositories and contribute or adapt them for your next project. CNN Model and API Service links are included!
+                        WHY WE ❤️ IT: We LOVE the fact you can explore the GitHub repositories and contribute or adapt
+                        them for your next project. CNN Model and API Service links are included!
                     </p>
                     <ul class="project-links">
-                        <li><a href="https://weloveopensource.beehiiv.com/p/small-models-big-impact-3-projects-changing-ai">
+                        <li><a
+                                href="https://weloveopensource.beehiiv.com/p/small-models-big-impact-3-projects-changing-ai">
                                 Click here to read the post</a></li>
                     </ul>
                 </div>
@@ -414,14 +418,18 @@
             <div class="project-card">
                 <img src="images/ato_aial.png" alt="ai_alzheimer" class="blog-img">
                 <div class="project-info">
-                    <h3>Article on An open source approach to transparent AI <a href="https://allthingsopen.org/articles/democratizing-alzheimers-diagnosis-interpretable-ai" target="_blank">@All Things Open</a> </h3>
+                    <h3>Article on An open source approach to transparent AI <a
+                            href="https://allthingsopen.org/articles/democratizing-alzheimers-diagnosis-interpretable-ai"
+                            target="_blank">@All Things Open</a> </h3>
                     <p>
-                        Democratizing Alzheimer’s diagnosis: How interpretable AI brings early detection 
+                        Democratizing Alzheimer’s diagnosis: How interpretable AI brings early detection
                         to underserved communities
-An open                 source approach to transparent AI diagnosis that prioritizes clinical trust and equitable access.
+                        An open source approach to transparent AI diagnosis that prioritizes clinical trust and
+                        equitable access.
                     </p>
                     <ul class="project-links">
-                        <li><a href="https://allthingsopen.org/articles/democratizing-alzheimers-diagnosis-interpretable-ai">
+                        <li><a
+                                href="https://allthingsopen.org/articles/democratizing-alzheimers-diagnosis-interpretable-ai">
                                 Click here to read the article</a></li>
                     </ul>
                 </div>
@@ -430,7 +438,9 @@ An open                 source approach to transparent AI diagnosis that priorit
             <div class="project-card">
                 <img src="images/article_healthCareIndia.png" alt="ai_alzheimer" class="blog-img">
                 <div class="project-info">
-                    <h3>Article on HealthCare AI tool <a href="https://healthcare-in-india.net/digital-health/ai-early-detection-alzheimers-tool/" target="_blank">@HealthCare India</a> </h3>
+                    <h3>Article on HealthCare AI tool <a
+                            href="https://healthcare-in-india.net/digital-health/ai-early-detection-alzheimers-tool/"
+                            target="_blank">@HealthCare India</a> </h3>
                     <p>
                         Alzheimer’s disease affects millions globally, yet early-stage diagnosis remains challenging due
                         to subtle
@@ -439,24 +449,24 @@ An open                 source approach to transparent AI diagnosis that priorit
                         classifies Alzheimer’s.
                     </p>
                     <ul class="project-links">
-                        <li><a href="https://healthcare-in-india.net/digital-health/ai-early-detection-alzheimers-tool/">
+                        <li><a
+                                href="https://healthcare-in-india.net/digital-health/ai-early-detection-alzheimers-tool/">
                                 Click here to read the article</a></li>
                     </ul>
                 </div>
             </div>
 
             <div class="project-card">
-            <h2>
-                Speaker
-                <a href="https://voxel51.com/events/ai-ml-and-computer-vision-meetup-december-4-2025" target="_blank">@Voxel 51</a> Conference
-            </h2>
-            <iframe width="560" height="315" 
-                    src="https://www.youtube.com/embed/G_zVTtgcdVg?start=1276"
-                    title="YouTube video player" 
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                <h2>
+                    Speaker
+                    <a href="https://voxel51.com/events/ai-ml-and-computer-vision-meetup-december-4-2025"
+                        target="_blank">@Voxel 51</a> Conference
+                </h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/G_zVTtgcdVg?start=1276"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen>
-            </iframe>
+                </iframe>
             </div>
 
 
@@ -518,28 +528,28 @@ An open                 source approach to transparent AI diagnosis that priorit
 </div>
 
 <script>
-// Get modal elements
-const modal = document.getElementById("imgModal");
-const modalImg = document.getElementById("modalImg");
-const closeBtn = document.querySelector(".close");
+    // Get modal elements
+    const modal = document.getElementById("imgModal");
+    const modalImg = document.getElementById("modalImg");
+    const closeBtn = document.querySelector(".close");
 
-// Attach click event to all images inside .cert and .block
-document.querySelectorAll(".cert img, .block img").forEach(img => {
-    img.addEventListener("click", () => {
-        modal.style.display = "block";
-        modalImg.src = img.src;
+    // Attach click event to all images inside .cert and .block
+    document.querySelectorAll(".cert img, .block img").forEach(img => {
+        img.addEventListener("click", () => {
+            modal.style.display = "block";
+            modalImg.src = img.src;
+        });
     });
-});
 
-// Close modal
-closeBtn.onclick = () => {
-    modal.style.display = "none";
-};
+    // Close modal
+    closeBtn.onclick = () => {
+        modal.style.display = "none";
+    };
 
-// Close when clicking outside the image
-modal.onclick = (e) => {
-    if (e.target === modal) modal.style.display = "none";
-};
+    // Close when clicking outside the image
+    modal.onclick = (e) => {
+        if (e.target === modal) modal.style.display = "none";
+    };
 
 </script>
 
